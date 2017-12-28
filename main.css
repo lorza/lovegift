@@ -1,0 +1,150 @@
+@font-face {
+	font-family: b2b;
+	src: url("calig.ttf");
+}
+
+.b2b {
+	font-family: b2b;
+}
+
+.main__background {
+	background-image: url("landing.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main__divider__reservation {
+	background-image: url("bg.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.main__divider__events {
+	background-image: url("cookin.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.main__divider__menu {
+	background-image: url("fork.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#navbar h1, #navbar a {
+    color: white;
+}
+
+#navbar .navbar-menu  {
+	font-size: .7em;
+	font-family: arial;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+#navbar .has-dropdown div a {
+    color: black !important;
+}
+
+.navbar-link, .navbar-item {
+  background-color: rgba(0,0,0,0) !important;
+}
+
+.navbar-link:hover, .navbar-item:hover {
+  color: lightgreen !important;
+}
+
+#scroll-button {
+	text-align: center;
+    width: 50px;
+    height: auto;
+    margin: auto;
+    opacity: 0.8;
+}
+
+.spaced_subtitle {
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-size: .8em;
+	margin-top: -10px;
+	margin-bottom: 30px;
+}
+
+.spaced__content {
+	font-family: arial;
+	font-size: 1.1em;
+}
+
+.events-content {
+	/* width: 256px; */
+	/* margin: auto; */
+}
+
+.text__large {
+	font-size: 3.2em;
+}
+
+.text__arial {
+	font-family: arial;
+}
+
+.text__times {
+	font-family: "Times New Roman";
+}
+
+.content__about {
+	margin-top: 25%;
+}
+
+.menu_col {
+	border-left: 1px solid lightgrey;
+	border-radius: 3px;
+	/*margin: 5px;*/
+	margin: 0 5px;
+}
+
+.btn {
+	padding: 14px;
+	background-color: #362d2d;
+	width: 120px;
+	margin: auto;
+	font-size: .8em;
+	color: white;
+	border-radius: 3px;
+	transition: .1s;
+	border: 1px solid #000000
+}
+	.btn:hover {
+		background-color: #4e4242
+	}
+
+.form-container {
+	padding: 20px;
+}
+
+.main__form-section {
+	background-color: #f9f9f9;
+}
+	.main__form-setion .form-container #form-col {
+		background-color: white;
+		border-radius: 3px;
+		border: 1px solid lightgrey;
+	}
+
+	.form-button-container {
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	.form-button {
+		padding: 15px;
+		background-color: #362d2d;
+		color: white;
+		width: 250px;
+		margin: auto;
+		text-align: center;
+		transition: .2s;
+	}
+		.form-button:hover {
+			background-color: #4e4242;
+		}
